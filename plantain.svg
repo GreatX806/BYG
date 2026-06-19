@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg6" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#1a1005"/><stop offset="100%" stop-color="#050402"/></radialGradient>
+    <radialGradient id="plateGlow6" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FFB300" stop-opacity="0.2"/><stop offset="100%" stop-color="#FFB300" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg6)"/>
+  <ellipse cx="400" cy="340" rx="300" ry="220" fill="url(#plateGlow6)"/>
+  <rect x="120" y="200" width="560" height="340" rx="20" fill="#2a1a08"/>
+  <rect x="125" y="205" width="550" height="330" rx="18" fill="#3a2210"/>
+  <path d="M130 260 Q400 255 670 262" stroke="#4a2e14" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M130 310 Q400 318 670 308" stroke="#4a2e14" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M130 360 Q400 355 670 363" stroke="#4a2e14" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M130 410 Q400 418 670 408" stroke="#4a2e14" stroke-width="2" fill="none" opacity="0.4"/>
+  <g transform="translate(155, 300) rotate(-8)">
+    <ellipse cx="65" cy="16" rx="62" ry="22" fill="#CC8000"/>
+    <ellipse cx="65" cy="14" rx="60" ry="20" fill="#FFD040"/>
+    <ellipse cx="65" cy="14" rx="58" ry="18" fill="none" stroke="#8B4500" stroke-width="3" opacity="0.5"/>
+    <ellipse cx="48" cy="8" rx="28" ry="10" fill="#FFE878" opacity="0.45"/>
+    <circle cx="40" cy="16" r="8" fill="#CC8000" opacity="0.5"/>
+    <circle cx="88" cy="12" r="7" fill="#CC8000" opacity="0.4"/>
+  </g>
+  <g transform="translate(255, 290) rotate(5)">
+    <ellipse cx="65" cy="17" rx="64" ry="24" fill="#CC8000"/>
+    <ellipse cx="65" cy="15" rx="62" ry="22" fill="#FFD040"/>
+    <ellipse cx="65" cy="15" rx="60" ry="20" fill="none" stroke="#8B4500" stroke-width="2" opacity="0.5"/>
+    <ellipse cx="50" cy="9" rx="26" ry="9" fill="#FFE878" opacity="0.4"/>
+    <circle cx="45" cy="18" r="9" fill="#BB7000" opacity="0.45"/>
+    <circle cx="85" cy="15" r="7" fill="#BB7000" opacity="0.4"/>
+  </g>
+  <g transform="translate(350, 285) rotate(-3)">
+    <ellipse cx="70" cy="18" rx="68" ry="26" fill="#CC8000"/>
+    <ellipse cx="70" cy="16" rx="66" ry="24" fill="#FFD040"/>
+    <ellipse cx="70" cy="16" rx="64" ry="22" fill="none" stroke="#8B4500" stroke-width="2" opacity="0.5"/>
+    <ellipse cx="52" cy="9" rx="30" ry="11" fill="#FFE878" opacity="0.45"/>
+    <circle cx="42" cy="18" r="10" fill="#CC8000" opacity="0.5"/>
+    <circle cx="95" cy="14" r="8" fill="#CC8000" opacity="0.45"/>
+  </g>
+  <g transform="translate(455, 292) rotate(7)">
+    <ellipse cx="65" cy="17" rx="63" ry="23" fill="#CC8000"/>
+    <ellipse cx="65" cy="15" rx="61" ry="21" fill="#FFD040"/>
+    <ellipse cx="65" cy="15" rx="59" ry="19" fill="none" stroke="#8B4500" stroke-width="2" opacity="0.5"/>
+    <ellipse cx="48" cy="9" rx="25" ry="9" fill="#FFE878" opacity="0.4"/>
+    <circle cx="44" cy="17" r="8" fill="#BB7000" opacity="0.45"/>
+  </g>
+  <g transform="translate(555, 300) rotate(-6)">
+    <ellipse cx="60" cy="16" rx="58" ry="21" fill="#CC8000"/>
+    <ellipse cx="60" cy="14" rx="56" ry="19" fill="#FFD040"/>
+    <ellipse cx="60" cy="14" rx="54" ry="17" fill="none" stroke="#8B4500" stroke-width="2" opacity="0.5"/>
+    <ellipse cx="45" cy="8" rx="22" ry="8" fill="#FFE878" opacity="0.4"/>
+  </g>
+  <g transform="translate(195, 360) rotate(4)">
+    <ellipse cx="65" cy="17" rx="62" ry="22" fill="#CC8000"/>
+    <ellipse cx="65" cy="15" rx="60" ry="20" fill="#FFD040"/>
+    <ellipse cx="48" cy="9" rx="25" ry="9" fill="#FFE878" opacity="0.4"/>
+  </g>
+  <g transform="translate(370, 355) rotate(-4)">
+    <ellipse cx="65" cy="17" rx="62" ry="22" fill="#CC8000"/>
+    <ellipse cx="65" cy="15" rx="60" ry="20" fill="#FFD040"/>
+    <ellipse cx="48" cy="9" rx="25" ry="9" fill="#FFE878" opacity="0.4"/>
+  </g>
+  <g transform="translate(540, 358) rotate(6)">
+    <ellipse cx="62" cy="16" rx="58" ry="21" fill="#CC8000"/>
+    <ellipse cx="62" cy="14" rx="56" ry="19" fill="#FFD040"/>
+    <ellipse cx="46" cy="8" rx="22" ry="8" fill="#FFE878" opacity="0.4"/>
+  </g>
+  <text x="400" y="565" font-family="Arial Black" font-size="20" fill="#FF6B1A" opacity="0.55" text-anchor="middle" letter-spacing="3">TEAM SWEET — BYG</text>
+</svg>

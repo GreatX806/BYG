@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg2" cx="40%" cy="40%" r="70%"><stop offset="0%" stop-color="#1a0f05"/><stop offset="100%" stop-color="#080402"/></radialGradient>
+    <radialGradient id="wingGlow" cx="50%" cy="60%" r="60%"><stop offset="0%" stop-color="#FF4500" stop-opacity="0.25"/><stop offset="100%" stop-color="#FF4500" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg2)"/>
+  <ellipse cx="400" cy="350" rx="300" ry="200" fill="url(#wingGlow)"/>
+  <rect x="0" y="420" width="800" height="180" fill="#2a1a0a"/>
+  <path d="M0 450 Q200 445 400 452 Q600 458 800 448" stroke="#3a2510" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M0 470 Q200 475 400 468 Q600 462 800 472" stroke="#3a2510" stroke-width="1" fill="none" opacity="0.4"/>
+  <ellipse cx="400" cy="390" rx="275" ry="75" fill="#222"/>
+  <ellipse cx="400" cy="380" rx="180" ry="40" fill="#8B0000" opacity="0.8"/>
+  <g transform="translate(120, 200) rotate(-25)">
+    <ellipse cx="80" cy="35" rx="75" ry="35" fill="#5C2A00"/>
+    <path d="M20 20 L140 30" stroke="#1a0a00" stroke-width="7" opacity="0.8"/>
+    <path d="M20 38 L140 48" stroke="#1a0a00" stroke-width="7" opacity="0.8"/>
+    <ellipse cx="80" cy="33" rx="72" ry="32" fill="#8B1A00" opacity="0.5"/>
+    <ellipse cx="55" cy="22" rx="30" ry="12" fill="#FF6B35" opacity="0.2"/>
+    <ellipse cx="8" cy="40" rx="10" ry="14" fill="#DDD"/>
+  </g>
+  <g transform="translate(250, 240) rotate(5)">
+    <path d="M0 38 Q60 -2 130 13 Q160 20 155 48 Q150 76 110 70 Q50 78 0 58 Z" fill="#6B2E00"/>
+    <path d="M15 25 L120 35" stroke="#2a1000" stroke-width="6" opacity="0.8"/>
+    <path d="M18 45 L122 52" stroke="#2a1000" stroke-width="6" opacity="0.8"/>
+    <ellipse cx="148" cy="45" rx="10" ry="6" fill="#DDD"/>
+    <ellipse cx="3" cy="42" rx="8" ry="5" fill="#DDD"/>
+  </g>
+  <g transform="translate(450, 190) rotate(15)">
+    <ellipse cx="75" cy="32" rx="70" ry="33" fill="#5a2600"/>
+    <path d="M15 18 L135 28" stroke="#1a0800" stroke-width="7" opacity="0.8"/>
+    <path d="M18 36 L134 46" stroke="#1a0800" stroke-width="7" opacity="0.8"/>
+    <ellipse cx="75" cy="30" rx="67" ry="30" fill="#8B1800" opacity="0.45"/>
+    <ellipse cx="8" cy="38" rx="9" ry="13" fill="#DDD"/>
+  </g>
+  <g transform="translate(540, 270) rotate(-10)">
+    <path d="M0 36 Q55 -2 125 10 Q152 18 148 44 Q144 70 105 66 Q48 73 0 54 Z" fill="#652E00"/>
+    <path d="M12 22 L115 32" stroke="#2a1000" stroke-width="6" opacity="0.8"/>
+    <path d="M15 42 L118 50" stroke="#2a1000" stroke-width="6" opacity="0.8"/>
+    <ellipse cx="140" cy="42" rx="9" ry="5" fill="#DDD"/>
+  </g>
+  <g transform="translate(300, 310) rotate(-5)">
+    <ellipse cx="85" cy="32" rx="80" ry="34" fill="#5C2600"/>
+    <path d="M15 18 L155 30" stroke="#1a0800" stroke-width="8" opacity="0.8"/>
+    <path d="M18 40 L154 50" stroke="#1a0800" stroke-width="8" opacity="0.8"/>
+    <ellipse cx="85" cy="30" rx="77" ry="31" fill="#9B2200" opacity="0.4"/>
+    <ellipse cx="8" cy="36" rx="11" ry="15" fill="#DDD"/>
+  </g>
+  <path d="M280 330 Q300 350 290 380" stroke="#CC1100" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M420 320 Q440 345 430 375" stroke="#CC1100" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <g transform="translate(620, 290)">
+    <rect x="0" y="80" width="70" height="100" rx="5" fill="#CC2200"/>
+    <text x="35" y="140" font-family="Arial Black" font-size="9" fill="#FFD700" text-anchor="middle">BYG</text>
+    <rect x="8" y="15" width="7" height="75" rx="3" fill="#FFD700"/>
+    <rect x="20" y="8" width="7" height="80" rx="3" fill="#FFD700"/>
+    <rect x="32" y="12" width="7" height="75" rx="3" fill="#FFD700"/>
+    <rect x="44" y="5" width="7" height="82" rx="3" fill="#FFD700"/>
+    <rect x="56" y="10" width="7" height="77" rx="3" fill="#FFD700"/>
+  </g>
+  <text x="400" y="570" font-family="Arial Black" font-size="20" fill="#FF6B1A" opacity="0.55" text-anchor="middle" letter-spacing="3">SMOKY GRILL SPECIAL — BYG</text>
+</svg>

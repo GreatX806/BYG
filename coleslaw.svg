@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg5" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#1a1208"/><stop offset="100%" stop-color="#060402"/></radialGradient>
+    <radialGradient id="bowlGrad" cx="40%" cy="30%" r="70%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#d0d0d0"/></radialGradient>
+    <radialGradient id="slawGrad" cx="40%" cy="35%" r="70%"><stop offset="0%" stop-color="#fffff0"/><stop offset="100%" stop-color="#e8e0c0"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg5)"/>
+  <ellipse cx="400" cy="300" rx="280" ry="220" fill="#FF8C00" opacity="0.08"/>
+  <rect x="0" y="400" width="800" height="200" fill="#1a0e06"/>
+  <path d="M0 415 Q400 410 800 417" stroke="#2a1a0a" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M0 440 Q400 448 800 438" stroke="#2a1a0a" stroke-width="2" fill="none" opacity="0.4"/>
+  <ellipse cx="400" cy="448" rx="200" ry="30" fill="#000" opacity="0.4"/>
+  <ellipse cx="400" cy="415" rx="208" ry="52" fill="#e0e0e0"/>
+  <path d="M205 338 Q200 412 214 432 Q292 456 400 458 Q508 456 586 432 Q600 412 595 338 Q508 288 400 286 Q292 288 205 338 Z" fill="url(#bowlGrad)"/>
+  <ellipse cx="400" cy="332" rx="193" ry="46" fill="white"/>
+  <ellipse cx="400" cy="360" rx="180" ry="120" fill="url(#slawGrad)"/>
+  <g opacity="0.85">
+    <path d="M240 330 Q260 310 285 325 Q270 345 245 335 Z" fill="#6B2D6B"/>
+    <path d="M280 310 Q305 290 328 308 Q310 330 285 318 Z" fill="#8B3A8B"/>
+    <path d="M340 300 Q368 282 390 298 Q370 320 345 310 Z" fill="#7A2F7A"/>
+    <path d="M390 295 Q418 278 440 295 Q422 316 396 306 Z" fill="#6B2D6B"/>
+    <path d="M440 308 Q465 290 488 305 Q470 328 445 318 Z" fill="#8B3A8B"/>
+    <path d="M490 322 Q512 305 532 320 Q516 340 492 332 Z" fill="#7A2F7A"/>
+    <path d="M260 385 Q280 368 302 382 Q286 402 262 393 Z" fill="#7A2F7A"/>
+    <path d="M460 375 Q480 358 500 372 Q485 392 462 383 Z" fill="#6B2D6B"/>
+  </g>
+  <g opacity="0.8">
+    <path d="M255 345 Q275 328 295 342 Q280 360 258 352 Z" fill="#78A028"/>
+    <path d="M305 320 Q328 304 348 318 Q333 338 308 328 Z" fill="#8AB832"/>
+    <path d="M365 308 Q390 292 412 306 Q395 326 370 318 Z" fill="#78A028"/>
+    <path d="M415 312 Q438 295 460 310 Q444 330 420 322 Z" fill="#8AB832"/>
+    <path d="M465 330 Q488 314 508 328 Q492 348 468 340 Z" fill="#78A028"/>
+    <path d="M340 385 Q362 368 384 382 Q368 402 342 393 Z" fill="#8AB832"/>
+    <path d="M410 390 Q432 374 452 388 Q436 408 412 399 Z" fill="#78A028"/>
+  </g>
+  <g opacity="0.9">
+    <rect x="270" y="332" width="35" height="7" rx="3" fill="#FF8C00" transform="rotate(-15 270 332)"/>
+    <rect x="330" y="315" width="38" height="7" rx="3" fill="#FF9900" transform="rotate(8 330 315)"/>
+    <rect x="395" y="308" width="34" height="7" rx="3" fill="#FF8C00" transform="rotate(-20 395 308)"/>
+    <rect x="448" y="318" width="36" height="7" rx="3" fill="#FF9900" transform="rotate(12 448 318)"/>
+    <rect x="355" y="375" width="40" height="7" rx="3" fill="#FF9900" transform="rotate(5 355 375)"/>
+    <rect x="430" y="382" width="35" height="7" rx="3" fill="#FF8C00" transform="rotate(-18 430 382)"/>
+  </g>
+  <ellipse cx="380" cy="342" rx="55" ry="30" fill="white" opacity="0.25"/>
+  <path d="M210 338 Q280 318 330 325" stroke="white" stroke-width="3" fill="none" opacity="0.5"/>
+  <text x="400" y="570" font-family="Arial Black" font-size="20" fill="#FF6B1A" opacity="0.55" text-anchor="middle" letter-spacing="3">PICK YOUR SIDE — BYG</text>
+</svg>

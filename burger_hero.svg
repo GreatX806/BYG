@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%"><stop offset="0%" stop-color="#2a1a0a"/><stop offset="100%" stop-color="#0a0604"/></radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#FF8C00" stop-opacity="0.3"/><stop offset="100%" stop-color="#FF8C00" stop-opacity="0"/></radialGradient>
+    <radialGradient id="bunTop" cx="50%" cy="35%" r="60%"><stop offset="0%" stop-color="#d4a257"/><stop offset="60%" stop-color="#b8832a"/><stop offset="100%" stop-color="#8a5e1a"/></radialGradient>
+    <radialGradient id="bunBot" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#c49040"/><stop offset="100%" stop-color="#9a6e20"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.6"/></filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="320" cy="320" rx="220" ry="180" fill="url(#glow)"/>
+  <g transform="translate(520, 200)">
+    <path d="M20 220 L10 100 Q10 85 25 85 L105 85 Q120 85 120 100 L110 220 Z" fill="#CC2200"/>
+    <rect x="10" y="210" width="110" height="18" rx="4" fill="#AA1800"/>
+    <text x="65" y="225" font-family="Arial Black" font-size="13" fill="#FFD700" text-anchor="middle" font-weight="bold">BYG</text>
+    <rect x="30" y="10" width="11" height="90" rx="5" fill="#FFD700"/>
+    <rect x="46" y="0" width="11" height="100" rx="5" fill="#FFD700"/>
+    <rect x="62" y="5" width="11" height="88" rx="5" fill="#FFD700"/>
+    <rect x="78" y="-5" width="11" height="100" rx="5" fill="#FFD700"/>
+    <rect x="94" y="8" width="11" height="85" rx="5" fill="#FFD700"/>
+  </g>
+  <g transform="translate(620, 180)">
+    <path d="M5 80 L95 80 L88 240 L12 240 Z" fill="#2a8a4a"/>
+    <path d="M5 80 L95 80 L88 240 L12 240 Z" fill="#3aaa5a" opacity="0.4"/>
+    <ellipse cx="50" cy="80" rx="45" ry="12" fill="#4DC" opacity="0.8"/>
+    <rect x="60" y="-60" width="8" height="160" rx="4" fill="#FF6B6B" transform="rotate(-5 64 80)"/>
+    <ellipse cx="50" cy="75" rx="40" ry="10" fill="#2a8a4a"/>
+  </g>
+  <g transform="translate(130, 80)" filter="url(#shadow)">
+    <ellipse cx="210" cy="80" rx="175" ry="75" fill="url(#bunTop)"/>
+    <ellipse cx="160" cy="55" rx="12" ry="6" fill="#f5d078" transform="rotate(-20 160 55)"/>
+    <ellipse cx="200" cy="45" rx="12" ry="6" fill="#f5d078" transform="rotate(10 200 45)"/>
+    <ellipse cx="245" cy="50" rx="12" ry="6" fill="#f5d078" transform="rotate(-15 245 50)"/>
+    <ellipse cx="280" cy="65" rx="10" ry="5" fill="#f5d078" transform="rotate(25 280 65)"/>
+    <ellipse cx="130" cy="72" rx="10" ry="5" fill="#f5d078" transform="rotate(-30 130 72)"/>
+    <ellipse cx="175" cy="52" rx="70" ry="22" fill="#e8b860" opacity="0.35"/>
+    <path d="M60 142 Q80 135 100 148 Q120 158 140 145 Q160 132 180 148 Q200 162 220 148 Q240 135 260 148 Q280 158 300 145 Q320 132 340 150 Q360 165 370 145 L370 165 Q350 180 320 168 Q290 158 260 170 Q230 182 200 168 Q170 155 140 168 Q110 180 80 168 Q60 160 55 148 Z" fill="#F4C430"/>
+    <path d="M100 155 Q95 175 90 195" stroke="#F4C430" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M280 150 Q285 170 282 190" stroke="#F4C430" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <ellipse cx="210" cy="175" rx="162" ry="42" fill="#8B4513"/>
+    <ellipse cx="210" cy="168" rx="162" ry="42" fill="#CD853F"/>
+    <path d="M80 160 Q120 155 160 165 Q200 175 240 162 Q280 150 340 165" stroke="#A0522D" stroke-width="3" fill="none" opacity="0.6"/>
+    <ellipse cx="120" cy="163" rx="15" ry="7" fill="#DAA520" opacity="0.7"/>
+    <ellipse cx="195" cy="155" rx="20" ry="8" fill="#DAA520" opacity="0.7"/>
+    <ellipse cx="275" cy="160" rx="18" ry="7" fill="#DAA520" opacity="0.7"/>
+    <path d="M50 200 Q80 185 110 200 Q130 210 160 195 Q185 182 210 198 Q235 212 260 196 Q285 182 315 198 Q340 210 375 195 Q390 190 400 205 L400 225 Q375 240 345 225 Q315 212 285 227 Q255 240 225 226 Q195 212 165 226 Q135 240 105 226 Q75 214 50 226 Z" fill="#228B22"/>
+    <ellipse cx="210" cy="227" rx="145" ry="22" fill="#E03010"/>
+    <path d="M155 217 L155 238" stroke="#FF4444" stroke-width="1.5" opacity="0.5"/>
+    <path d="M210 216 L210 238" stroke="#FF4444" stroke-width="1.5" opacity="0.5"/>
+    <path d="M265 217 L265 238" stroke="#FF4444" stroke-width="1.5" opacity="0.5"/>
+    <ellipse cx="210" cy="268" rx="168" ry="38" fill="url(#bunBot)"/>
+    <ellipse cx="210" cy="285" rx="168" ry="28" fill="#9a6e20"/>
+    <path d="M80 275 Q120 270 160 278" stroke="#7a5010" stroke-width="4" fill="none" opacity="0.6"/>
+  </g>
+  <text x="400" y="580" font-family="Arial Black" font-size="22" fill="#FF6B1A" opacity="0.6" text-anchor="middle" letter-spacing="4">BACKYARD GRILL — LAGOS</text>
+</svg>
